@@ -1,0 +1,30 @@
+{
+  "name": "socket.io-get-started",
+  "version": "1.0.0",
+  "description": "Testing socket.io with the example provided on the official site",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariano-farace/Socket.io-Get-Started.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariano-farace/Socket.io-Get-Started/issues"
+  },
+  "homepage": "https://github.com/mariano-farace/Socket.io-Get-Started#readme",
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  }
+}
